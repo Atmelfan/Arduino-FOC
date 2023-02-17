@@ -233,6 +233,8 @@ class FOCMotor
       * - HallSensor
     */
     Sensor* sensor; 
+    Sensor* output_sensor; 
+
     /** 
       * CurrentSense link
     */
